@@ -1,0 +1,39 @@
+# macOS
+.DS_Store
+
+# Jupyter notebooks
+.ipynb_checkpoints
+*.ipynb
+
+# MATLAB
+*.m~
+matlab_toolboxes/*
+!matlab_toolboxes/*.py
+!matlab_toolboxes/*.sh
+
+# Common binary data formats
+*.nc
+*.npz
+*.npy
+*.mat
+*.bin
+
+# Common figure formats
+*.jpg
+*.jpeg
+*.png
+*.tiff
+*.eps
+*.pdf
+*.svg
+*.gif
+
+# Common movie formats
+*.mp4
+*.mov
+
+# Python
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
