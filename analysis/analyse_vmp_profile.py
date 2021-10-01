@@ -17,12 +17,11 @@
 # # Analysis of an individual VMP profile
 #
 # Import packages.
-
+# %%
 import cartopy.crs as ccrs
 import cartopy.feature as cfeature
 import matplotlib.pyplot as plt
 import numpy as np
-# %%
 import scipy.io as io
 from example_python_package import utils
 
