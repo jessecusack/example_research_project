@@ -118,7 +118,7 @@ N2_smooth[N2_smooth < 1e-7] = np.NaN
 # Calculate the turbulent diffusivity.
 
 # %%
-Krho = utils.calculate_diffusivity(vmp_profile["dissipation"], N2_smooth)
+Krho = utils.calculate_diffusivity(vmp_profile["dissipation"], N2_smooth, 0.2)
 
 # %% [markdown]
 # Save the result.
