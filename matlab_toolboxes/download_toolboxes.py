@@ -30,6 +30,5 @@ urlretrieve(url, "example_matlab_toolbox.zip")
 with zipfile.ZipFile("example_matlab_toolbox.zip", "r") as archive:
     archive.extractall()
 
-os.rename("example_matlab_toolbox-main", "example_matlab_toolbox")
 os.remove("example_matlab_toolbox.zip")
-os.remove(os.path.join("example_matlab_toolbox", ".gitignore"))
+os.remove(os.path.join("example_matlab_toolbox-main", ".gitignore"))

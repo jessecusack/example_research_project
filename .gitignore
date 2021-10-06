@@ -10,6 +10,7 @@
 matlab_toolboxes/*
 !matlab_toolboxes/*.py
 !matlab_toolboxes/*.sh
+!matlab_toolboxes/*.m
 
 # Common binary data formats
 *.nc
