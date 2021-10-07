@@ -94,9 +94,9 @@ cd setup_scripts
 ./setup.sh
 ```
 
-Note that this will download the data and toolboxes.
+Note that this will download the data and toolboxes, as well as install the kernel and environment.
 
-To install/remove the environment separately, use the following scripts:
+To install/remove the environment separately from the downloads, use the following scripts:
 
 ```bash
 ./install_environment.sh
@@ -108,15 +108,13 @@ or:
 ./remove_environment.sh
 ```
 
-These also install/remove the jupyter kernel for the environment.
-
 > If these don't execute, you might need to change the file permissions with `chmod u+x *.sh`.
 
 If you run in to problems, see the instructions for manual setup above.
 
 ### Removing the environment
 
-To remove the kernel and environment:
+To remove the kernel and environment manually use:
 
 ```bash
 conda activate vmp-proj
